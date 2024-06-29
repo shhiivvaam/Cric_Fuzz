@@ -1,6 +1,6 @@
 <h1 align="center">🏀🏐🏑 CRIC-FUZZ 🏏⚽🏈</h1>
 
-<div align="center" style="width: '100px'"> <img src="https://github.com/Rakshit-CSE/Cric_Fuzz/blob/main/src/assets/Crix_Fuzz_Logo.png?raw=true"></div>
+<div align="center" style="width:100px; height:100px;"> <img src="https://github.com/Rakshit-CSE/Cric_Fuzz/blob/main/src/assets/Crix_Fuzz_Logo.png?raw=true"></div>
 
 ### OBJECTIVE :
 
