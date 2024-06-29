@@ -24,6 +24,16 @@
    - _Favorite Teams_: Allows users to follow and receive updates about their favorite teams and players.
    - _Custom Alerts_: Provides options for setting personalized alerts for specific match outcomes, player milestones, or league updates.
 
+### LEARNING OBJECTIVES :
+
+1. Full-Stack Development with MERN Stack:
+Develop proficiency in building responsive web applications using MongoDB, Express.js, React, and Node.js.Learn to leverage React for dynamic UI components, Express for API development, and MongoDB for data storage and retrieval.
+
+2. API Integration and Data Handling:
+Gain experience in integrating third-party APIs for sports data, implementing data caching mechanisms, and optimizing API calls for performance.
+
+3. Sports Analytics and Fan Engagement:
+Understand the importance of sports analytics in delivering meaningful insights and engaging sports fans through interactive features. Explore strategies for enhancing user retention, increasing engagement, and building a passionate sports fan community.
 
 
 # Run Scripts
