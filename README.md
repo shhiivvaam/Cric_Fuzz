@@ -4,9 +4,7 @@
 
 ### OBJECTIVE :
 
-    Creating a user-friendly smart agriculture advisory app aimed at providing farmers
-    with essential information and recommendations to enhance crop yield and
-    efficiency in resource usage
+     A sports score tracking application using the MERN stack, providing users with live scores, match details, player statistics, and news updates across various sports
 
 ### FEATURES LIST :
 
