@@ -31,7 +31,6 @@
 ```Terminal
 git clone https://github.com/shhiivvaam/Cric_Fuzz.git
 
-cd Farmers_Friend
 npm install
 npm run dev
 
