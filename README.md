@@ -1,6 +1,6 @@
 <h1 align="center">🏀🏐🏑 CRIC-FUZZ 🏏⚽🏈</h1>
 
-<div align="center"> <img src="https://github.com/suryapratap6521/Farmers_Friend/blob/main/src/assets/logo1.png?raw=true"></div>
+<div align="center"> <img src="https://github.com/Rakshit-CSE/Cric_Fuzz/blob/main/src/assets/Crix_Fuzz_Logo.png?raw=true"></div>
 
 ### OBJECTIVE :
 
