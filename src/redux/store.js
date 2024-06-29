@@ -4,7 +4,7 @@ import playerReducer from './slices/playerSlice';
 import teamReducer from './slices/teamSlice';
 import userReducer from './slices/userSlice';
 
-export default configureStore({
+const store = configureStore({
     reducer: {
         matches: matchReducer,
         players: playerReducer,
@@ -12,3 +12,5 @@ export default configureStore({
         users: userReducer,
     },
 });
+
+export default store;
