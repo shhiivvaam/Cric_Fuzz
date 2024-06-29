@@ -4,7 +4,7 @@
 
 ### OBJECTIVE :
 
-     <p>A sports score tracking application using the MERN stack, providing users with live scores, match details, player statistics, and news updates across various sports</p>
+<p>     A sports score tracking application using the MERN stack, providing users with live scores, match details, player statistics, and news updates across various sports.</p>
 
 ### FEATURES LIST :
 
