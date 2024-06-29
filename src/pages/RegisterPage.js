@@ -16,6 +16,7 @@ const RegisterPage = () => {
         e.preventDefault();
         await dispatch(registerUser({ username, email, password }));
         if (status === 'success') navigate('/login');
+        navigate('/login');
     };
 
     return (

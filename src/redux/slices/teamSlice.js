@@ -1,8 +1,10 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from '../../utils/api';
 
+
+const BASE_URL = "http://localhost:5000"
 export const fetchTeams = createAsyncThunk('teams/fetchTeams', async () => {
-    const response = await axios.get('/api/teams');
+    const response = await axios.get(`${BASE_URL}/api/teams`);
     return response.data;
 });
 

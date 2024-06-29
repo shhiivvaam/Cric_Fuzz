@@ -2,16 +2,17 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 
-const BASE_URL = "http://localhost:5000"
+// const BASE_URL = "http://localhost:5000"
+const REACT_APP_API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:5000"
 
 export const registerUser = createAsyncThunk('users/register', async (userData) => {
-    const response = await axios.post(`${BASE_URL}/api/users/register`, userData);
+    const response = await axios.post(`${REACT_APP_API_BASE_URL}/api/users/register`, userData);
     console.log(response);
     return response.data;
 });
 
 export const loginUser = createAsyncThunk('users/login', async (userData) => {
-    const response = await axios.post(`${BASE_URL}/api/users/login`, userData);
+    const response = await axios.post(`${REACT_APP_API_BASE_URL}/api/users/login`, userData);
     return response.data;
 });
 

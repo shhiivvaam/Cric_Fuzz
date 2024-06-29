@@ -13,7 +13,8 @@ const LoginPage = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         await dispatch(loginUser({ email, password }));
-        if (status === 'success') navigate.push('/');
+        if (status === 'success') navigate('/');
+        navigate('/');
     };
 
     return (

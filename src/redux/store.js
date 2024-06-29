@@ -1,15 +1,17 @@
 import { configureStore } from '@reduxjs/toolkit';
-import matchReducer from './slices/matchSlice';
-import playerReducer from './slices/playerSlice';
-import teamReducer from './slices/teamSlice';
-import userReducer from './slices/userSlice';
+import matchSlice from './slices/matchSlice';
+import playerSlice from './slices/playerSlice';
+import teamSlice from './slices/teamSlice';
+import userSlice from './slices/userSlice';
+import newsSlice from './slices/newsSlice';
 
 const store = configureStore({
     reducer: {
-        matches: matchReducer,
-        players: playerReducer,
-        teams: teamReducer,
-        users: userReducer,
+        matches: matchSlice,
+        players: playerSlice,
+        teams: teamSlice,
+        users: userSlice,
+        news: newsSlice
     },
 });
 
