@@ -1,4 +1,4 @@
-<h1 align="center"> CRIC-FUZZ</h1>
+<h1 align="center"> CRIC-FUZZ 🏏⚽🏈</h1>
 
 <div align="center"> <img src="https://github.com/suryapratap6521/Farmers_Friend/blob/main/src/assets/logo1.png?raw=true"></div>
 
