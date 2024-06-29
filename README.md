@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<h1 align="center">🏀🏐🏑 CRIC-FUZZ 🏏⚽🏈</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center"> <img src="https://github.com/suryapratap6521/Farmers_Friend/blob/main/src/assets/logo1.png?raw=true"></div>
 
-## Available Scripts
+### OBJECTIVE :
 
-In the project directory, you can run:
+<p> A dynamic and user-friendly sports score tracking platform that delivers real-time updates, detailed statistics, and engaging content to sports fans. </p>
 
-### `npm start`
+### FEATURES LIST :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Multi-Sport Coverage**
+   - _Live Scores_: Real-time scores and match updates for various sports leagues and tournaments.
+   - _Match Details_: Comprehensive details such as team line-ups, match schedules, and venue information.
+2. **Player and Team Statistics**
+   - _Player Profiles_: Showcasing player profiles with career statistics, performance metrics, and historical data.
+   - _Team Stats_: Present team statistics including win-loss records, rankings, and historical performance summaries.
+3. **News and Updates**
+   - _Latest News_: Aggregate and display sports news articles, editorials, and updates from reliable sources.
+   - _Notification System_: Sending push notifications for important match events, news alerts, and personalized updates.
+4. **User Engagement**
+   - _Interactive Features_: Includes features like live commentary, polls, and user-generated content (e.g., fan discussions, predictions).
+   - _Social Sharing_: Enable users to share match highlights, scores, and articles on social media platforms.
+5. **Customization and Personalization**
+   - _Favorite Teams_: Allows users to follow and receive updates about their favorite teams and players.
+   - _Custom Alerts_: Provides options for setting personalized alerts for specific match outcomes, player milestones, or league updates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+   ![1713333986299](image/README/1713333986299.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Run Scripts
 
-### `npm run build`
+```Terminal
+git clone https://github.com/shhiivvaam/Farmers_Friend.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd Farmers_Friend
+npm install
+npm run dev
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd server
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Environment Variables
 
-### `npm run eject`
+  Create an { .env } file in server directory and add these env variables to run the Code base successfully.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```Terminal
+// BACKEND
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+PORT=5000
+MONGODB_URL = ENTER YOU MONGODB DATABASE CONNECTION STRING
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+JWT_SECRET= "ENTER YOUR JWT SECRET HERE"
 
-## Learn More
+MAIL_HOST = smtp.gmail.com
+MAIL_USER= ENTER YOUR EMAIL ADDRESS (FOR MAILING SERVICES)
+MAIL_PASS=ewvjaiadwhtpymib
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+API_KEY = ENTER YOUR GOOGLE STUDIO API KEY
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+// FRONTEND
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+REACT_APP_BASE_URL = <YOUR_SERVER_RUNNING_PORT_ADDRESS>/api/v1
+```
