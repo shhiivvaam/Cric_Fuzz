@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<h1 align="center">🏀🏐🏑 CRIC-FUZZ 🏏⚽🏈</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center"> <img src="https://github.com/Rakshit-CSE/Cric_Fuzz/blob/main/src/assets/Crix_Fuzz_Logo.png?raw=true" style="width:200px; height:200px;"></div>
 
-## Available Scripts
+### OBJECTIVE :
 
-In the project directory, you can run:
+<p> A dynamic and user-friendly sports score tracking platform that delivers real-time updates, detailed statistics, and engaging content to sports fans. </p>
 
-### `npm start`
+### FEATURES LIST :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Multi-Sport Coverage**
+   - _Live Scores_: Real-time scores and match updates for various sports leagues and tournaments.
+   - _Match Details_: Comprehensive details such as team line-ups, match schedules, and venue information.
+2. **Player and Team Statistics**
+   - _Player Profiles_: Showcasing player profiles with career statistics, performance metrics, and historical data.
+   - _Team Stats_: Present team statistics including win-loss records, rankings, and historical performance summaries.
+3. **News and Updates**
+   - _Latest News_: Aggregate and display sports news articles, editorials, and updates from reliable sources.
+   - _Notification System_: Sending push notifications for important match events, news alerts, and personalized updates.
+4. **User Engagement**
+   - _Interactive Features_: Includes features like live commentary, polls, and user-generated content (e.g., fan discussions, predictions).
+   - _Social Sharing_: Enable users to share match highlights, scores, and articles on social media platforms.
+5. **Customization and Personalization**
+   - _Favorite Teams_: Allows users to follow and receive updates about their favorite teams and players.
+   - _Custom Alerts_: Provides options for setting personalized alerts for specific match outcomes, player milestones, or league updates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### LEARNING OBJECTIVES :
 
-### `npm test`
+1. Full-Stack Development with MERN Stack:
+Develop proficiency in building responsive web applications using MongoDB, Express.js, React, and Node.js.Learn to leverage React for dynamic UI components, Express for API development, and MongoDB for data storage and retrieval.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. API Integration and Data Handling:
+Gain experience in integrating third-party APIs for sports data, implementing data caching mechanisms, and optimizing API calls for performance.
 
-### `npm run build`
+3. Sports Analytics and Fan Engagement:
+Understand the importance of sports analytics in delivering meaningful insights and engaging sports fans through interactive features. Explore strategies for enhancing user retention, increasing engagement, and building a passionate sports fan community.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```Terminal
+git clone https://github.com/shhiivvaam/Cric_Fuzz.git
 
-### `npm run eject`
+npm install
+npm run dev
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd server
+npm install
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Environment Variables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  Create an { .env } file in server directory and add these env variables to run the Code base successfully.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+```Terminal
+// BACKEND
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+PORT=5000
+MONGODB_URL = ENTER YOU MONGODB DATABASE CONNECTION STRING
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+JWT_SECRET= "ENTER YOUR JWT SECRET HERE"
 
-### Code Splitting
+MAIL_HOST = smtp.gmail.com
+MAIL_USER= ENTER YOUR EMAIL ADDRESS (FOR MAILING SERVICES)
+MAIL_PASS=ewvjaiadwhtpymib
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+API_KEY = ENTER YOUR GOOGLE STUDIO API KEY
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+// FRONTEND
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+REACT_APP_BASE_URL = <YOUR_SERVER_RUNNING_PORT_ADDRESS>/api/v1
+```
