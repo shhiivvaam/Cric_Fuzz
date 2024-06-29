@@ -25,12 +25,11 @@
    - _Custom Alerts_: Provides options for setting personalized alerts for specific match outcomes, player milestones, or league updates.
 
 
-   ![1713333986299](image/README/1713333986299.png)
 
 # Run Scripts
 
 ```Terminal
-git clone https://github.com/shhiivvaam/Farmers_Friend.git
+git clone https://github.com/shhiivvaam/Cric_Fuzz.git
 
 cd Farmers_Friend
 npm install
